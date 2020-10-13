@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+     display: grid;
+    place-items: center;
+    height: 100vh;
+    transition: all 0.7s linear;
+}
+.card__design
+{
+    height: 540px;
+    width: 270px;
+    background-image: url("../images/believer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+    border-radius: 15px !important;
+    transition: all 1s linear !important;
+    outline-width: 0 !important;
+    border: none !important;
+}
+.card__design:hover
+{
+    transform: translateY(-20px) !important;
+}
+.upper__sec
+{
+    background:#262626de;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+.wave
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.waves
+{
+    height: 4rem;
+    width: 0.5rem;
+    margin: 0 3px;
+    background-color: white;
+    transform-origin: bottom;
+    animation: music 1.3s linear infinite;
+}
+@keyframes music
+{
+    0%{
+        transform: scale(0);
+        background: rgb(240, 8, 228);
+    }
+    50%
+    {
+        transform: scale(1);
+    }
+    100%
+    {
+        transform: scale(0);
+        /* background-color: red; */
+    }
+}
+.waves:nth-child(2)
+{
+    animation-delay: 0.1s;
+}
+.waves:nth-child(3)
+{
+    animation-delay: 0.2s;
+}
+.waves:nth-child(4)
+{
+    animation-delay: 0.3s;
+}
+.waves:nth-child(5)
+{
+    animation-delay: 0.4s;
+}
+.waves:nth-child(6)
+{
+    animation-delay: 0.5s;
+}
+.waves:nth-child(7)
+{
+    animation-delay: 0.6s;
+}
+.waves:nth-child(8)
+{
+    animation-delay: 0.7s;
+}
+.waves:nth-child(9)
+{
+    animation-delay: 0.8s;
+}
+.waves:nth-child(10)
+{
+    animation-delay: 0.9s;
+}
+.waves:nth-child(11)
+{
+    animation-delay: 1s;
+}
+.waves:nth-child(12)
+{
+    animation-delay: 1.1s;
+}
+.waves:last-child
+{
+    animation-delay: 1.2s;
+}
+.song__title
+{
+    display:flex ;
+    justify-content: space-between;
+}
+.cb
+{
+    /* justify-content: flex-end; */
+    background: #262626de;
+    height: 60% !important;
+     border-radius: 10px;
+     margin-top: 60%;
+     margin-left:12px;
+     margin-right:12px;
+}
+small 
+{
+    float: left;
+    font-size: 1.4rem !important;
+}
+audio
+{
+    width: 91%;
+    margin-top: 40px;
+    outline-width: 0;
+}
+.preico
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fa-play
+{
+    color: white;
+}
+.fa-pause
+{
+    color: white;
+}
+p {
+    font-size: 3rem !important;
+    font-weight: 900 !important;
+}
+.fs
+{
+    font-size: 2.1rem;
+    font-weight: 900 !important;
+}
+i:hover{
+    transform: scale(1.2);
+}
