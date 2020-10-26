@@ -1,29 +1,50 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+=======
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+>>>>>>> 0a6445f663fa543c4cfca213cfafe57cb3dedb19
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
+    font-family: 'Roboto', sans-serif;
+=======
     font-family: 'Mukta', sans-serif;
+>>>>>>> 0a6445f663fa543c4cfca213cfafe57cb3dedb19
 }
 html{
     font-size: 62.5%;
 }
 body{
+<<<<<<< HEAD
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    transition: all 0.7s cubic-bezier(.17,.67,.83,.67);
+=======
      display: grid;
     place-items: center;
     height: 100vh;
     transition: all 0.7s linear;
+>>>>>>> 0a6445f663fa543c4cfca213cfafe57cb3dedb19
 }
 .card__design
 {
     height: 540px;
+<<<<<<< HEAD
+    width: 300px;
+    background: url("../images/believer.jpg") no-repeat center;
+    background-size: cover;
+=======
     width: 270px;
     background-image: url("../images/believer.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center ;
+>>>>>>> 0a6445f663fa543c4cfca213cfafe57cb3dedb19
     border-radius: 15px !important;
     transition: all 1s linear !important;
     outline-width: 0 !important;
@@ -40,7 +61,10 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+<<<<<<< HEAD
+=======
 
+>>>>>>> 0a6445f663fa543c4cfca213cfafe57cb3dedb19
 }
 .wave
 {
